@@ -1,0 +1,8 @@
+
+## Example 
+
+{
+  "database_path": "data/db/mdf.db",
+  "inputs": [],
+  "eia_api_key": "YOUR_EIA_KEY"
+}
