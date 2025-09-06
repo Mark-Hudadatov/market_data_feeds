@@ -52,14 +52,14 @@ python3 -m venv venv
 source venv/bin/activate
 pip install pandas matplotlib
 
-**### 2. Run pipeline**
+### 2. Run pipeline
 python src/init_db.py
 python src/fetch_real_feeds.py
 python src/ingestion.py
 python src/quality_checks.py
 python src/reconciliation.py
 
-**###3. Explore**
+### 3. Explore
 
 Open the notebook:
 
