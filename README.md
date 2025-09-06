@@ -40,29 +40,3 @@ market_data_feeds/
 │ └── utils/ # helper functions (normalizers, etc.)
 └── notebooks/
 └── reconciliation_analysis.ipynb
-
-
-## 🛠 How to Run
-
-### 1. Setup
-```bash
-git clone <this-repo>
-cd market_data_feeds
-python3 -m venv venv
-source venv/bin/activate
-pip install pandas matplotlib
-
-##
-### 2. Run pipeline
-python src/init_db.py
-python src/fetch_real_feeds.py
-python src/ingestion.py
-python src/quality_checks.py
-python src/reconciliation.py
-
-##
-### 3. Explore
-
-Open the notebook:
-
-notebooks/reconciliation_analysis.ipynb
