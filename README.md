@@ -15,7 +15,8 @@ This project demonstrates an end-to-end market data pipeline, inspired by real-w
    - **Returns** – day-over-day % changes.
 4. **Reporting & Visualization**: Generate KPI tables and plots with pandas & matplotlib.
 
-**Business value (ICE-style):**
+**Business value:**
+
 - Detect anomalies early in the pipeline.
 - Distinguish real errors from vendor methodology bias.
 - Provide transparent KPIs to operations and product teams.
@@ -24,8 +25,6 @@ This project demonstrates an end-to-end market data pipeline, inspired by real-w
 ---
 
 ## 📂 Repository Structure
-
-
 market_data_feeds/
 ├── data/
 │ ├── input/ # raw CSV / JSON feeds
@@ -40,3 +39,5 @@ market_data_feeds/
 │ └── utils/ # helper functions (normalizers, etc.)
 └── notebooks/
 └── reconciliation_analysis.ipynb
+
+---
