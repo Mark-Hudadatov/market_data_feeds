@@ -1,6 +1,6 @@
 # Market Data Feeds – Ingestion, Quality Checks, and Reconciliation
 
-*A showcase project simulating ICE-style workflows for market data quality.*
+*A showcase project simulating workflows for market data quality.*
 
 ---
 
