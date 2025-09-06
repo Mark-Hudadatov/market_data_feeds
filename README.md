@@ -24,6 +24,8 @@ This project demonstrates an end-to-end market data pipeline, inspired by real-w
 ---
 
 ## 📂 Repository Structure
+
+
 market_data_feeds/
 ├── data/
 │ ├── input/ # raw CSV / JSON feeds
@@ -38,9 +40,6 @@ market_data_feeds/
 │ └── utils/ # helper functions (normalizers, etc.)
 └── notebooks/
 └── reconciliation_analysis.ipynb
-
----
-
 
 
 ## 🛠 How to Run
