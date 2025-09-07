@@ -37,6 +37,10 @@ market_data_feeds/
 │ ├── quality_checks.py
 │ ├── reconciliation.py
 │ └── utils/ # helper functions (normalizers, etc.)
+
+
+
+For details see the notebook (feed_notebook.ipynb)
 └── notebooks/
 └── reconciliation_analysis.ipynb
 
