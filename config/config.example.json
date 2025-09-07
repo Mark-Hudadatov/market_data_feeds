@@ -1,8 +1,14 @@
-
-## Example 
-
 {
   "database_path": "data/db/mdf.db",
   "inputs": [],
-  "eia_api_key": "YOUR_EIA_KEY"
+  "eia_api_key": "EIA_KEY",
+    "quality": {
+    "expected_frequency": "daily",
+    "max_latency_hours": 48,
+    "max_gap_days": 3
+  },
+  "reconciliation": {
+    "price_delta_pct_threshold": 0.5,
+    "return_delta_pct_threshold": 0.2
+  }
 }
