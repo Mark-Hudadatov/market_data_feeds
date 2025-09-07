@@ -1,0 +1,6 @@
+metric,value
+total_raw_rows,10576
+duplicate_rows,0
+pairs_compared,502
+anomalies_over_threshold,109
+anomaly_rate_pct,21.71
